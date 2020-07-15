@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    cache: false
+
+# 文件服务配置
+fileServer:
+  view-url: http://172.18.31.129:8080/file/view
+  save-url: http://172.18.31.129:8080/file/save
+  root-path: C:\Users\leelun\Desktop\onlyoffice
+  
+# onlyoffice服务配置
+docServer:
+  api-url: http://172.18.31.129:9000/web-apps/apps/api/documents/api.js
